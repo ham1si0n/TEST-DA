@@ -2020,4 +2020,9 @@ function library:AddWindow(title, options)
 	end
 
 	return window_data, Window
+
+end
+
+        Tab:Show()
+	library:FormatWindows()
 end
